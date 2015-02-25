@@ -117,7 +117,7 @@ class Game
 		
 			reply = The_game.asks("Enter your guess and press the enter key or (q) to quit\n")
 		
-			if reply < 1 or reply > 100 then
+			if reply < 1 or reply > 1000 then
 		
 				redo
 		
@@ -256,9 +256,6 @@ end
 
 	The_game = Game.new
 	
-	
-
-
 	The_game.greeting
 
 	answer = " " 
